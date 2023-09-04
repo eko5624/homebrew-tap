@@ -4,7 +4,7 @@ class Libmysofa < Formula
   url "https://github.com/hoene/libmysofa/archive/refs/tags/v1.3.1.tar.gz"
   sha256 "a8a8cbf7b0b2508a6932278799b9bf5c63d833d9e7d651aea4622f3bc6b992aa"
   license "BSD-3-Clause"
-  head "https://github.com/hoene/libmysofa.git", branch: "master"
+  head "https://github.com/hoene/libmysofa.git", branch: "main"
 
   depends_on "cmake" => :build
 
