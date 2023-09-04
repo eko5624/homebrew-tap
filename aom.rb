@@ -11,7 +11,7 @@ class Aom < Formula
   # `jpeg-xl` is currently not bottled on Linux
   on_macos do
     depends_on "pkg-config" => :build
-    depends_on "deus0ww/tap/jpeg-xl"
+    depends_on "eko5624/tap/jpeg-xl"
     depends_on "libvmaf" => :optional
   end
 
